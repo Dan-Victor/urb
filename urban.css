@@ -614,9 +614,7 @@ cursor: pointer;
     
     height: 120px;
   }
-  body{
-   overflow-x: hidden;
-  }
+ 
   .first-section-header-text{
     width: 400px;
     height: 225px;
