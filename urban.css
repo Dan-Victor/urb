@@ -593,12 +593,143 @@ cursor: pointer;
       .nav-menu.active {
         left: 0;
       }
+      
   #hire-us-button{
     display: none;
   } 
+ 
+  .jet-icon-container{
+    position: absolute;
+    left: 335px;
+    top:90px
+  }
+  .kaleidoscope{
+   display: none;
+  }
+  .first-section-paragraph-container{
+    position: absolute;
+    top:  300px;
+    width: 400px;
+  }
+  .first-section-header-text{
+    width: 400px;
+    height: 30px;
+  }
+  .button-container{
+    position: absolute;
+    top: 400px;
+  }
+  .the-clients{
+    position: absolute;
+    top: 550px;
+    width: 420px;
+    height: 400px;
+    
+  }
+  .second-text-p-container{ 
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 910px;
+   
+    
+  }
+  .second-text{
+    font-size: 35px;
+  }
+  .second-p-container{
+    font-size: small;
+    width: 350px
+  }
+  .second-section-header-text{
+    font-size: 25px ;
+    font-weight: 700
+  }
+  .card-container{
+    width: 500px;
+  
+    overflow: scroll;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+  }
+  .service-container{
+    position: absolute;
+    top: 1220px;
+    left: 50px;
+    width: 400px;
+    
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    
+  }
+  .service-container::-webkit-scrollbar{
+    display: none;
+
+  }
+  .service-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .first-card-container,.second-card-container,.third-card-container,.fourth-card-container{
+    width: 200px;
+
+  }
+  .card-container::-webkit-scrollbar{
+    display: none;
+
+  }
+  .card-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .first-card-paragraph-container,.second-card-paragraph-container,.third-card-paragraph-container,.fourth-card-paragraph-container{
+    font-size: 11px;
+    width: 180px;
+    font-weight: 500;
+  }
+  .web-dev-container,.mobile-dev-container,.product-dev-container,.scalable-dev-container{
+    width: 90px;
+    height: 130px;
+    margin-top: -50px;
+    
+  }
+  .hire{
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+
+  }
+  
+  .pic{
+    width: 50px;
+    height: 60px;
+  }
+  .web-dev{
+    font-size: 12.5px;
+  }
+  .second-section{
+    position: absolute;
+    top: 1500px;
+    
+  }
+  .third-section{
+    position:absolute;
+   
+    top: 2130px;
   }
   .fourth-section-container{
-    width: 100vw;
+    position: absolute;
+    top: 1650px;
+   
+  }
+  
+  }
+  .fourth-section-container{
+   
     height:628px;
     background-color:#1F1501;
     position: relative;
