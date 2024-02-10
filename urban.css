@@ -710,15 +710,16 @@ hr{
     flex-direction: column;
     background-color: #000000;
     width: 100%;
-    text-align: center;
     transition: 0.3s;
-    margin: 0 auto;
+    
   }
   .nav-item {
     margin: 16px 0;
   }
   .nav-link {
     color: #ffffff;
+    margin-left: -20px;
+    text-align: center;
   }
   .nav-link:hover {
     color: dodgerblue;
@@ -746,7 +747,7 @@ hr{
     flex-direction: column;
     overflow: hidden;
    margin: 0 auto;
-  
+   
   
    
   }
