@@ -712,6 +712,7 @@ hr{
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    margin: 0 auto;
   }
   .nav-item {
     margin: 16px 0;
@@ -745,6 +746,9 @@ hr{
     flex-direction: column;
     overflow: hidden;
    margin: 0 auto;
+   height: 145vh;
+  
+   
   }
   .kaleidoscope{
    display: none;
@@ -786,7 +790,20 @@ hr{
    text-align: center;
   }
   .second-text-p-container{
-    display: none;
+   width: 300px;
+   margin: -390px auto;
+   height: auto;
+   position: static;
+  }
+  .second-text{
+    width: auto;
+    font-size: x-large;
+    font-weight: 550;
+  }
+  .second-p-container{
+    width: auto;
+    height: auto;
+    margin-top: -30px;
   }
   .service-container{
     display: none;
