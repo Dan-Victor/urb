@@ -718,7 +718,7 @@ hr{
   }
   .nav-link {
     color: #ffffff;
-   margin: auto;
+   margin-left: -30px;
     text-align: center;
   }
   .nav-link:hover {
