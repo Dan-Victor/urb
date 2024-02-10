@@ -736,8 +736,8 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   overflow: hidden;
    
-   overflow-x: hidden;
   }
   .kaleidoscope{
    display: none;
@@ -751,15 +751,16 @@ hr{
   }
   .first-section-header-text-container{
     font-size: 25px;
-  
-    width: 400px;
-    margin-left: 20px ;
+   font-weight: 700;
+    width: 200px;
+    
+    margin-left: 0 ;
   }
   .first-section-paragraph-container{
     width: 360px;
     height: 100px;
    
-    margin-left: 20px;
+    margin-left: 0;
   }
   .the-clients{
     display: none;
