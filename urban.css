@@ -686,6 +686,9 @@ hr{
     right: 30px;
     
   }
+  .logg{
+    margin-left: 16px;
+  }
   .hamburger-menu.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -736,7 +739,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   overflow: hidden;
+    overflow: hidden;
    
   }
   .kaleidoscope{
@@ -748,19 +751,20 @@ hr{
   .h1-p-form-container{
   
     width: 96vw;
+    height: 410px
   }
   .first-section-header-text-container{
-    font-size: 25px;
+    font-size: 20px;
    font-weight: 700;
-    width: 200px;
-    
-    margin-left: 0 ;
+    width: 300px;
+  
+    margin: 0 auto ;
   }
   .first-section-paragraph-container{
-    width: 360px;
+    width: 300px;
     height: 100px;
    
-    margin-left: 0;
+    margin: 0 auto;
   }
   .the-clients{
     display: none;
