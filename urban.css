@@ -769,7 +769,7 @@ hr{
   .the-clients{
     position: static;
     width:100%;
-    height: 200px;
+    height: 300px;
    filter: none;
     gap: 20px;
     margin: 410px auto;
@@ -778,8 +778,8 @@ hr{
  
   }
   .cll{
-    width: 74px;
-    height: 76px;
+    width: 64px;
+    height: 64px;
     margin-top: -20px;
   }
   .for-c-header{
