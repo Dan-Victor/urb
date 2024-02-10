@@ -749,28 +749,28 @@ hr{
   
     width: 96vw;
   }
-}
-.first-section-header-text-container{
-  font-size: 25px;
-
-  width: 400px;
-  margin-left: 20px ;
-}
-.first-section-paragraph-container{
-  width: 360px;
-  height: 100px;
- 
-  margin-left: 20px;
-}
-.the-clients{
+  .first-section-header-text-container{
+    font-size: 25px;
+  
+    width: 400px;
+    margin-left: 20px ;
+  }
+  .first-section-paragraph-container{
+    width: 360px;
+    height: 100px;
+   
+    margin-left: 20px;
+  }
+  .the-clients{
+    display: none;
+  }
+  .second-text-p-container{
+    display: none;
+  }
+  .service-container{
+    display: none;
+  }
+  .button-container{
   display: none;
-}
-.second-text-p-container{
-  display: none;
-}
-.service-container{
-  display: none;
-}
-.button-container{
-display: none;
+  }
 }
