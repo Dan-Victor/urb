@@ -735,7 +735,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+    overflow: hidden
   }
   .kaleidoscope{
    display: none;
@@ -749,7 +749,7 @@ hr{
   }
 }
 .first-section-header-text-container{
-  font-size: 35px;
+  font-size: 25px;
   
   width: 350px;
 }
