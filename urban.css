@@ -815,8 +815,9 @@ hr{
   }
   .second-text{
     width: auto;
-    font-size: x-large;
+    font-size: 20px;
     font-weight: 550;
+    text-align: center;
   }
   .second-p-container{
     width: 100%;
@@ -846,7 +847,7 @@ hr{
     object-fit: cover;
   }
   .web-dev{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
   }
  
