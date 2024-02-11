@@ -172,7 +172,7 @@ right: -12px
  margin-top: 40px;
  margin-left: 50px;
  display: flex; 
- gap: 12px;
+ gap: 5px;
  
 }
 
@@ -556,7 +556,7 @@ cursor: pointer;
 
 
 .fourth-section-container{
- 
+  width: 100%;
   height:628px;
   background-color:#1F1501;
   position: relative;
@@ -636,6 +636,7 @@ top: 7px;
   right: 100px;
  
 }
+
 .fourth-section-paragraph-text{
 font-weight: 600;
 font-size: 16px;
@@ -718,7 +719,7 @@ hr{
   }
   .nav-link {
     color: #ffffff;
-   margin-left: -30px;
+    margin-left: -30px;
     text-align: center;
   }
   .nav-link:hover {
@@ -746,10 +747,9 @@ hr{
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-   margin: 0 auto;
-   
-  
-   
+    margin: 0 auto;
+    
+    height: 160vh;
   }
   .kaleidoscope{
    display: none;
@@ -764,26 +764,42 @@ hr{
   .first-section-header-text-container{
     font-size: 20px;
    font-weight: 700;
-    width: 300px;
+    width: 90%;
     margin: 0 auto ;
+    text-align: center;
+    height: auto;
   }
   .first-section-paragraph-container{
-    width: 300px;
-    height: 150px;
+    width: 90%;
+    height: auto;
     margin: 0 auto;
+    text-align: center;
+  }
+  .button-container{
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .hire-us, .see-portfolio{
+    margin: 0 auto;
+    width: 45%;
+    text-align: center;
+    font-size: small;
   }
   .the-clients{
     position: static;
     width:100%;
     height: auto;
-    gap: 20px;
     margin: 410px auto;
-    top: 700px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #FEF4E1;
   }
   .cll{
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     margin-top: -20px;
    
   }
@@ -791,10 +807,11 @@ hr{
    text-align: center;
   }
   .second-text-p-container{
-   width: 300px;
-   margin: -390px auto;
+   width: 90%;
+   margin: -400px auto;
    height: auto;
    position: static;
+   font-size: 20px;
   }
   .second-text{
     width: auto;
@@ -802,14 +819,41 @@ hr{
     font-weight: 550;
   }
   .second-p-container{
-    width: auto;
+    width: 100%;
     height: auto;
     margin-top: -30px;
   }
   .service-container{
-    display: none;
+    width: 90%;
+    height: auto;
+    margin: 420px auto;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
-  .button-container{
-  display: none;
+  .web-dev-container,.mobile-dev-container,.product-dev-container,.scalable-dev-container{
+    width:auto;
+    height: auto;
+   margin:  0 auto;
+  border-radius: 4px;
+
+  }
+  .pic{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .web-dev{
+    font-size: 12px;
+    font-weight: 500;
+  }
+ 
+  .hire{
+   display: none;
+  }
+  .svg{
+    fill: #ffffff;
   }
 }
